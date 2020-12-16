@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="grocerygame.js"></script>
+		<link rel="stylesheet" type="text/css" href="grocerygame.css">
+		<title>Grocery Game</title>
+	</head>
+	
+	<body id="bg">
+	
+		<h1 style="font-size: 32pt; background-color: black; opacity: 80%">PRICE IS RIGHT - GROCERY GAME</h1>
+		<div id="header" style="background-color: black; opacity: 80%">
+			<p style="text-align: center"><b>By purchasing grocery items that are only part of the 5 items below, reach a total that is between $20 and $22 to win the game. You can even buy one item in multiple amounts 
+			(for example, 3 boxes of waffles) to get closer to $20-$22, but be careful: if you go over $20 and $22 at any point in the game, you lose. On that same subject, if you use up all 5 items in your purchase and 
+			fall short of $20-$22, you lose. You must have a total that is between $20 and $22 within 5 guesses to win the game.</b></p>
+		</div>
+		
+		<div id="items-in-play">
+		</div>
+		
+		<div id="cash-register" style="text-align: center">
+				<ul>
+					<li><h2>$</h2></li>
+					 <li><div id="num1"><h2 id="num1text">0</h2></div></li>
+					 <li><div id="num2"><h2 id="num2text">0</h2></div></li>
+					 <li><h2>.</h2></li>
+					 <li><div id="num3"><h2 id="num3text">0</h2></div></li>
+					 <li><div id="num4"><h2 id="num4text">0</h2></div></li>
+				</ul>
+		</div>
+		
+		<div id="game-strip">
+			<label for="inputItem">Input item here:</label>
+			<input type="text" name="inputItem" id="inputItem" />
+			<label for="inputQty">Input quantity here:</label>
+			<input type="number" name="inputQty" id="inputQty" min="1" max="9" />
+			<input type="button" id="submitBtn" value="SUBMIT" />
+			<label id="guesses-left">Guesses Remaining: 5</label>
+		</div>
+		
+		<div style="text-align: center">
+			<ul>
+				<li><input type="button" id="startGame" value="START GAME" /></li>
+				<li><input type="button" id="resetGame" value="RESET GAME" /></li>
+			</ul>
+		</div>
+		
+		<div id="gameplay" style="text-align: center"></div>
+		<!-- Special thanks to the Provigo flyer for the items and rough estimates of their prices -->
+	</body>
+</html>

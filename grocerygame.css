@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Gotham";
+	font-size: 14pt;
+	color: white;
+	height: 100%;
+	width: 100%
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-image: url("set.jpg");
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 70pt;
+}
+
+li {
+	display: inline-block;
+}
+
+#game-strip {
+	text-align: center; 
+	background-color: blue; 
+	opacity: 80%;
+}
+
+#num1{
+	background: black;
+	border: 2px solid white;
+	width: 100px;
+	height: 100px;
+}
+
+#num2{
+	background: black;
+	border: 2px solid white;
+	width: 100px;
+	height: 100px;
+}
+
+#num3{
+	background: black;
+	border: 2px solid white;
+	width: 100px;
+	height: 100px;
+}
+
+#num4{
+	background: black;
+	border: 2px solid white;
+	width: 100px;
+	height: 100px;
+}
+
+#num1text{
+	color: white;
+	font-family: "Microgramma D OT";
+}
+
+#num2text{
+	color: white;
+	font-family: "Microgramma D OT";
+}
+
+#num3text{
+	color: white;
+	font-family: "Microgramma D OT";
+}
+
+#num4text{
+	color: white;
+	font-family: "Microgramma D OT";
+}
+
+#inputItem {
+	height: 40px;
+	/*margin-top: 25px;*/
+	width: 300px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#inputQty {
+	height: 40px;
+	/*margin-top: 25px;*/
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+#submitBtn {
+	height: 40px;
+	/*margin-top: 25px;
+	margin-left: 50%;*/
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#resetGame {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#startGame {
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 50%;
+	width: 150px;
+	font-family: "Gotham";
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#items-in-play {
+	text-align: center; 
+	background-color: blue; 
+	opacity: 80%;
+}
+
+#gameplay {
+	background-color: purple;
+	opacity: 80%;
+}
